@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+//    @RequestMapping({"/", "/index.html"})
+//    public String index() {
+//        return "login";
+//    }
+
     @Value("${person.last-name}")
     private String name;
 
